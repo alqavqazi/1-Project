@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(68, 161, 207);
+    color: rgb(220, 215, 215);
+    
+    font-size: 18px;
+    font-weight: 700;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.programmer {
+     width: 540px;
+     border-radius: 10%;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, red)
+}
+
+.info p {
+    color: black;
+}
