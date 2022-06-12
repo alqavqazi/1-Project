@@ -8,102 +8,104 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="info">   
-    <img src="programmer.jpg" alt="Тут фотка типичного программиста" class="programmer">
-    <h1>Name Name</h1>
-    <p><em>Мне 20 лет и я планирую в будущем стать веб-разработчиком. <strong>Это является моей целью</strong></em></p>
-    <p>Так же я планирую в будущем переехать в другую страну для работы</p>
-</div>
 
-<hr>
+<div class="container">
 
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <li><a href="https://www.reddit.com" target="_blank">Reddit</a></li>
-        <li><a href="https://telegram.org" target="_blank">Telegram</a></li>
-    </ul>
+    <div class="info">   
+            <img src="programmer.jpg" alt="Тут фотка типичного программиста" class="programmer">
+            <h1>Name Name</h1>
+            <p>Мне 20 лет и я планирую в будущем стать веб-разработчиком. <strong>Это является моей целью</strong></p>
+            <p>Так же я планирую в будущем переехать в другую страну для работы</p>
+
+            <h4>Мои социальные сети</h4>
+            <a href="https://www.reddit.com" target="_blank">Reddit</a>
+            |
+            <a href="https://telegram.org" target="_blank">Telegram</a>
+    </div>
     
-<hr>
+    <!-- <div class="social">
+        <h2>Мои социальные сети</h2>
+        <ul>
+            <li><a href="https://www.reddit.com" target="_blank">Reddit</a></li>
+            <li><a href="https://telegram.org" target="_blank">Telegram</a></li>
+        </ul>
+     -->
 
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Плавание</li>
-        <li>Чтение</li>
-        <li>Изучение техники</li>
-    </ol>
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Плавание</li>
+                <li>Чтение</li>
+                <li>Изучение техники</li>
+            </ol>
+        </div>
+        
+        <div class="card bg-green">
+            <h2>Моя работа</h2>
+                <table class="table">
+                <thead>
+                    <tr class="temp">
+                        <td>Компания</td>
+                        <td>Должность</td>
+                        <td>Срок работы</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google</td>
+                        <td>Web-develop</td>
+                        <td>3 года</td>
+                    </tr>
+                </tbody>
+                </table>
+        </div>    
+        
+    <div class="bottom"> 
+            </div>
+                <div class="partners">
+                <h2>Мои партнеры</h2>
+                <a href="partners.html" target="_blank">Перейти</a>
+            </div>
 
-<hr>
+        
 
-    <h2>Моя учеба</h2>
-        <table border="1">
-            <tr>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-            </tr>
-            <tr>
-                <td>Универ</td>
-                <td>Школа программирования</td>
-                <td>Стажировка</td>
-            </tr>
-            <tr>
-                <td>4 года</td>
-                <td>1.5 года</td>
-                <td>1 год</td>
-            </tr>
-        </table>
-    
-<hr>
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
 
-    <h2>Моя работа</h2>
-        <table border="1">
-        <thead>
-            <tr>
-                <td>Компания</td>
-                <td>Должность</td>
-                <td>Срок работы</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Google</td>
-                <td>Web-develop</td>
-                <td>3 года</td>
-            </tr>
-        </tbody>
-        </table>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите ваш email...">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea id="text" cols="18" rows="5"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить">
+            </form>
+        </div>
 
-<hr>
+    <!-- <div class="box-model">
+        <div>
+        <div>
+        <div>
+        <div>
+    -->
 
-    <h2>Мои партнеры</h2>
-    <a href="partners.html" target="_blank">Перейти</a>
-
-<hr>
-
-<h2>Связаться со мной</h2>
-
-<form action="/">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="Введите ваше имя...">
-
-<br>
-<br>
-
-    <label for="email">Ваш email:</label>
-    <input type="text" id="email" placeholder="Введите ваш email...">
+    <!-- <div style="margin-bottom: 500px;;"> -->
 
 
-<br>
-<br>
-    
-    <label for="text">Ваше сообщение:</label>
-    <textarea id="text" cols="18" rows="5"></textarea>
+    <div class="position">
+     <div class="box"></div>
+    </div>
 
-<br>
-<br>
-
-    <input type="submit" value="Отправить">
-
-</form>
+    </div>
 </body>
 </html>

@@ -1,15 +1,35 @@
 body {
-    background-color: rgb(68, 161, 207);
-    color: rgb(220, 215, 215);
-    
+    background-color: rgb(173, 175, 176);
+    color: black;
     font-size: 18px;
     font-weight: 700;
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
 h1 {
-    color: red;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -21,4 +41,186 @@ h1 {
 
 .info p {
     color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: none;
+    word-spacing: none;
+    letter-spacing: none;
+    text-align: center;
 }
+
+.info {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* .social {
+    background-color: red;
+    padding: 11px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 40px;
+} */
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* .box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 50px;   
+    border-color: red;
+    box-sizing: border-box;
+} */
+
+.bg-green {
+    background: #e5ffe7 ;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.card {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.list {
+    padding: 5 20px;
+    list-style: none;
+}
+
+.list li {
+    color: black;
+    margin-bottom: 5px;
+    border-bottom: 2px solid;
+}
+
+.table {
+    width: 600px;
+}
+
+.table td {
+    padding-bottom: 10px; 
+}
+
+.temp {
+    color: black;
+}
+
+.bottom {
+    margin: auto;
+    max-width: 650px;
+}
+
+.partners {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: #52d0d0;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+.info h4 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 5px 0px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.btn {
+    color: black;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    background-color: #ccc;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+/* .box {
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+    position: fixed;
+    border-radius: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.position {
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 400px;
+} */
