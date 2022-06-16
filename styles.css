@@ -34,9 +34,9 @@ h1 {
 }
 
 .programmer {
-     width: 540px;
-     border-radius: 10%;
-     box-shadow: 4px 4px 10px rgba(0, 0, 0, red)
+    width: 540px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, red)
 }
 
 .info p {
